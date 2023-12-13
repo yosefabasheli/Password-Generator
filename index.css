@@ -1,4 +1,13 @@
 body {
-    margin: auto 150px;
-    
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 25px ;
+    background: #ECFDF5;
+    border: 2px solid;
+    height: 100vh;
+    max-height: 550px;
+    max-width: 550px;
 }
+
+

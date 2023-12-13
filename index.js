@@ -20,10 +20,9 @@ let passlength = 15;
      }
     return answer;
  }
- const password1 = genrateCh();
- password1Disp.textContent = password1;
  
- const password2 = genrateCh();
- password2Disp.textContent = password2;
- 
- 
+ function showPasswords() {
+    password1Disp.textContent = genrateCh();
+    password2Disp.textContent = genrateCh();
+ }
+
